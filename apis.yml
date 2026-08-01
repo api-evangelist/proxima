@@ -1,8 +1,29 @@
 aid: proxima
 name: Proxima
-description: Proxima is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Proxima (Proxima Bio) is a preclinical biotechnology company making protein
+  interactions programmable through an integrated discovery platform that
+  combines artificial intelligence, machine learning, and structural proteomics.
+  Building on a proprietary atlas of protein cross-linking data, Proxima trains
+  models that design proximity modulators - Inducers, Modulators, and Blockers -
+  small-molecule therapeutics that induce or block protein-protein complexes to
+  address cancer, autoimmune disorders, and other hard-to-treat diseases. The
+  company is backed by DCVC and collaborates with major pharmaceutical firms. It
+  is listed in the API Evangelist network as a company profile; as of this pass
+  Proxima publishes no public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/proxima/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://proximabio.com/icons/proxima_logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Structural Biology
+- Proteomics
+- Therapeutics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/proxima-domain-security.yml
+- type: Website
+  url: https://proximabio.com/
+- type: Blog
+  url: https://proximabio.com/news
+- type: Careers
+  url: https://proximabio.com/careers
+- type: Contact
+  url: https://proximabio.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
