@@ -12,6 +12,17 @@ description: >-
   is listed in the API Evangelist network as a company profile; as of this pass
   Proxima publishes no public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/proxima/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
